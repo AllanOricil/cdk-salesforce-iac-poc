@@ -1,0 +1,36 @@
+{
+  "name": "cdk-salesforce-iac-poc",
+  "version": "0.0.0",
+  "bin": {
+    "cdk-salesforce-iac-poc": "bin/cdk-salesforce-iac-poc.js"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-sdk/types": "^3.577.0",
+    "@types/aws-lambda": "^8.10.138",
+    "@types/jest": "^29.5.12",
+    "@types/node": "20.12.7",
+    "@types/winston": "^2.4.4",
+    "aws-cdk": "2.141.0",
+    "dotenv": "^16.4.5",
+    "esbuild": "^0.21.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.4.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.583.0",
+    "aws-cdk-lib": "2.141.0",
+    "constructs": "^10.0.0",
+    "jsforce": "^1.11.1",
+    "jsonwebtoken": "^9.0.2",
+    "source-map-support": "^0.5.21",
+    "winston": "^3.13.0"
+  }
+}
